@@ -11,20 +11,24 @@ import './landingPage.css';
 
 function MyLandingPage() {
 
+    // initialize AOS
     useEffect(() => {
         AOS.init({ duration:2000 });
     }, []);
 
     return (
 
-        <div class="post-container">  
+        <div class="container">  
 
-            <div className='photo' data-aos='fade-right'>
+            <div className='photo' data-aos='fade-right' data-aos-delay='200'>
                     <img src={me} className="photo" alt="me" />
             </div>
 
-            <div className="post-content" data-aos='fade-left'>
-                    <h3 class="post-title">hi, i'm jonah</h3>
+            <div className="content" data-aos='fade-left' data-aos-delay='1500'>
+                    <h3 class="title">hi, i'm jonah</h3>
+            </div>
+
+            <div className="content" data-aos='fade-left' data-aos-delay='3000'>
                     <p>thanks for visiting my website</p>
             </div>
 
