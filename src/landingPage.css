@@ -9,16 +9,16 @@
 }
 .photo {
     position: absolute;
-    height: 100%;
+    height: 100vh;
 }
 .title {
-    margin-top: 25%;
+    margin-top: 27vh;
     font-weight: bold;
     font-size: 275%;
     color: #292b2d;
 }
 .content {
-    margin-left: 42%;
+    margin-left: 43vw;
     text-align: center;
     font-size: 122%;
     color: #292b2d;
