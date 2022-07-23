@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import me from './jonah.jpeg';
+import me from '../images/jonah.jpeg';
 
 import './landingPage.css';
-import './enterButton.css';
+import '../utils/enterButton.css';
 
 function MyLandingPage() {
 
