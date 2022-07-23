@@ -23,17 +23,11 @@ function MyLandingPage() {
             </div>
             
             <div className='content-container'>
-                <div data-aos='fade-left' data-aos-delay='1200'>
-                    <h3>hi, i'm jonah</h3>
+                <div className='intro'>
+                    <h3 data-aos='fade-left' data-aos-delay='1200'>hi, i'm jonah</h3>
+                    <p data-aos='fade-left' data-aos-delay='2200'>thanks for visiting my website</p>
                 </div>
-
-                <div data-aos='fade-left' data-aos-delay='2200'>
-                    <p>thanks for visiting my website</p>
-                </div>
-
-                <div data-aos='fade-up' data-aos-delay='3000'>
-                    <a href='#' className='btn btn-white btn-animate'>click to enter</a>
-                </div>
+                <a data-aos='fade-up' data-aos-delay='3000' href='#' className='btn btn-white btn-animate'>click to enter</a>
             </div>
         </div>
         
