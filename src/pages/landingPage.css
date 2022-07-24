@@ -40,7 +40,6 @@
 .content-container > div > h3 {
     font-weight: bold;
     font-size: 275%;
-    
     color: #292b2d;
 }
 .content-container > div > p {
@@ -51,6 +50,7 @@
     width: 125px;
 }
 
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -58,10 +58,10 @@
     align-items: center;
     margin: 0 auto;
 }
-
 .intro h3 {
-    margin-top: 300px;
+    margin-top: 70%;
 }
+
 
 .button {
     position: relative;
